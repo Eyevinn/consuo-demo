@@ -15,4 +15,27 @@ content {
     width: 100%;
   }
 
+  div.consuo-up-next-container {
+    padding: 5px 10px;
+  }
+  div.consuo-up-next-container h2 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  div.consuo-up-next-container p {
+    font-size: 11px;
+    font-weight: lighter;
+  }
+
+  .consuo-epg-container {
+    height: 80px;
+  }
+  .consuo-epg-container h3 {
+    font-size: 14px;;
+    font-weight: bold;
+  }
+  .consuo-epg-container span {
+    font-size: 11px;
+    font-weight: lighter;
+  }
 }
