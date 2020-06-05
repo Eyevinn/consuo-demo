@@ -1,7 +1,7 @@
 {
   "name": "consuo-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple demo of a consuo channel and the related component to use",
   "main": "index.js",
   "scripts": {
     "start": "parcel -p 3000 src/index.html",
