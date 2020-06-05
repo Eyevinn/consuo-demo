@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Consuo Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.scss">
+  <script src="main.js"></script>
+</head>
+<body class ="row">
+  <header class="col-md-12 text-center">
+    <h1>Consuo Demo</h1>
+    <p>Powered by</p>
+    <img class="rounded mx-auto d-block" src="https://d1okaosfjqp6sh.cloudfront.net/image/upload/c_scale,w_200/Homepage-Logo/eyevinnloggawhiteobject.png" />
+  </header>
+  <content class="col-md-8 offset-md-2">
+    <div id="video-wrapper">
+    </div>
+    <consuo-up-next api-url="https://d2wf7f0pdxobio.cloudfront.net" channel-id="eyevinn" update-interval="5"></consuo-up-next>
+    <consuo-epg api-url="https://d2wf7f0pdxobio.cloudfront.net" channel-id="eyevinn" update-interval="5"></consuo-epg>
+  </content>
+</body>
+</html>
